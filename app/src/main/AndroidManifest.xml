@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.righttreepa.righttreepa">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
 
     <application
@@ -22,14 +22,17 @@
             </intent-filter>
         </activity>
 
-        <!-- no interface for this service, it just receive the message
-        and deliver it to the GCMListenerService - .MyGcmListenerService - in this case -->
+        <!--
+        no interface for this service, it just receive the message
+        and deliver it to the GCMListenerService - .MyGcmListenerService - in this case
+        -->
         <receiver
             android:name="com.google.android.gms.gcm.GcmReceiver"
             android:exported="true"
-            android:permission="com.google.android.c2dm.permission.SEND" >
+            android:permission="com.google.android.c2dm.permission.SEND">
             <intent-filter>
                 <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+
                 <category android:name="gcm.play.android.samples.com.gcmquickstart" />
             </intent-filter>
         </receiver>
@@ -37,7 +40,7 @@
         <!-- GCMListenerService -->
         <service
             android:name=".MyGcmListenerService"
-            android:exported="false" >
+            android:exported="false">
             <intent-filter>
                 <action android:name="com.google.android.c2dm.intent.RECEIVE" />
             </intent-filter>
@@ -46,9 +49,12 @@
         <!-- service to register apps for GCM service if not app registered -->
         <service
             android:name=".RegistrationIntentService"
-            android:exported="false">
-        </service>
+            android:exported="false"></service>
 
+        <activity
+            android:name=".GCMShowMessage"
+            android:label="@string/title_activity_gcmshow_message"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
