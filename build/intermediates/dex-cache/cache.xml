@@ -1,2 +1,152 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
+
+    <item
+        jar="/home/hschmale/righttreepa-android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="551e78f21acf69ebfb489c0e79647824c838013e">
+        <dex dex="/home/hschmale/righttreepa-android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-cast-8.4.0_482e8c2e41468f6c4f8238825bde271e067c6974.jar" />
+    </item>
+    <item
+        jar="/home/hschmale/righttreepa-android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="966e5771a5a2ebfb31bf00d7cd6cd2546d245517">
+        <dex dex="/home/hschmale/righttreepa-android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-auth-8.4.0_54cd2f116a159d99db3a0073a804f1bcda39a11a.jar" />
+    </item>
+    <item
+        jar="/home/hschmale/righttreepa-android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="3a364cc6b698d1b3b2d284f64618daaa7fe77ddf">
+        <dex dex="/home/hschmale/righttreepa-android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-games-8.4.0_db32be2512ec79b996106e00cbcd4280af1ebc1b.jar" />
+    </item>
+    <item
+        jar="/home/hschmale/righttreepa-android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="0194a7409c40de94fb539d4ad9928ec5d47afeb7">
+        <dex dex="/home/hschmale/righttreepa-android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-safetynet-8.4.0_be2f8d861a7c0ab26e20140fba123cc9c0425d7c.jar" />
+    </item>
+    <item
+        jar="/home/hschmale/righttreepa-android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="04de44f90606c77f3b28cf44861f306290505aac">
+        <dex dex="/home/hschmale/righttreepa-android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-maps-8.4.0_a152bd17d5439116e62cc0c9c815c8b10a50cab1.jar" />
+    </item>
+    <item
+        jar="/home/hschmale/righttreepa-android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="1c9f35e952b212c843f7bd2c7eec8e82ad95602e">
+        <dex dex="/home/hschmale/righttreepa-android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-analytics-8.4.0_3c03a52e259177079cda7befe2b49c295695544d.jar" />
+    </item>
+    <item
+        jar="/home/hschmale/righttreepa-android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e167a34eaca0b31704212f43f9576ea84e05046f">
+        <dex dex="/home/hschmale/righttreepa-android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-wearable-8.4.0_271d2cf999b0007155cedf13da18c5604f62c37b.jar" />
+    </item>
+    <item
+        jar="/home/hschmale/righttreepa-android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="b82b8e847173c28efffcd291b2a0b1ae9ad17fa4">
+        <dex dex="/home/hschmale/righttreepa-android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-identity-8.4.0_a8d1827c744a0d484664edc1ce0087c70794bfa0.jar" />
+    </item>
+    <item
+        jar="/home/hschmale/righttreepa-android/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/jars/libs/internal_impl-23.0.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="03d38bb042efe3e5ce27ba66b729a9523c36d8fe">
+        <dex dex="/home/hschmale/righttreepa-android/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.0_fa249f90da70df767fb7f6f43d78f1a0c3f1ff7e.jar" />
+    </item>
+    <item
+        jar="/home/hschmale/righttreepa-android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="08d34b2d135c1cc96ab506fd8bf6916d1e2f391a">
+        <dex dex="/home/hschmale/righttreepa-android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-panorama-8.4.0_a72d08c1aefc9567f4786683cba4fdae39fa2496.jar" />
+    </item>
+    <item
+        jar="/home/hschmale/righttreepa-android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-vision/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="dfecc4d835cdabcdecf7e95f0d20a3ef1e9d8ef4">
+        <dex dex="/home/hschmale/righttreepa-android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-vision-8.4.0_347fcbbdc0e11ef3def80a65cfaa5d290dad9c06.jar" />
+    </item>
+    <item
+        jar="/home/hschmale/righttreepa-android/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="d358b3dd49a7c67844622dcbc9cf4339e13952ce">
+        <dex dex="/home/hschmale/righttreepa-android/app/build/intermediates/pre-dexed/debug/com.android.support-mediarouter-v7-23.0.0_7a26733edae96add1b1d204f5f6cee318e06a295.jar" />
+    </item>
+    <item
+        jar="/home/hschmale/righttreepa-android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="c54246475c1bb64ac6857d1320364bfbfeda2c46">
+        <dex dex="/home/hschmale/righttreepa-android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-fitness-8.4.0_7e778a449cb531f65b6179e75e407f76e6304d83.jar" />
+    </item>
+    <item
+        jar="/home/hschmale/righttreepa-android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="f2df436a8f02ce7e4d7d209671fc45f97c470f0e">
+        <dex dex="/home/hschmale/righttreepa-android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-wallet-8.4.0_354abb80555938b26494f6ec26dc9a41c18ec2dd.jar" />
+    </item>
+    <item
+        jar="/home/hschmale/righttreepa-android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="a8412b654dab86d57bf90683367488211c8a81f1">
+        <dex dex="/home/hschmale/righttreepa-android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-location-8.4.0_82b52a4f6e79671e82a6450c826d66130ed7e573.jar" />
+    </item>
+    <item
+        jar="/home/hschmale/righttreepa-android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="65d086ee9daaf87b5af62ad24471edafa433354c">
+        <dex dex="/home/hschmale/righttreepa-android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-appindexing-8.4.0_8a5dc0133220cf444fb4982ab67567a6c75915b3.jar" />
+    </item>
+    <item
+        jar="/home/hschmale/righttreepa-android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="b36f30ac5ee5d5214f4b1e2ac49f11889d58e71a">
+        <dex dex="/home/hschmale/righttreepa-android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-drive-8.4.0_f227a6cbf0dcc4e067123305384a73e8ab97f430.jar" />
+    </item>
+    <item
+        jar="/home/hschmale/righttreepa-android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="b5e7892fb0708e792e0e933c4c0a0ca0ac7831fb">
+        <dex dex="/home/hschmale/righttreepa-android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-ads-8.4.0_58d5ad3034c5c58536e7923e0ae217b5b903b609.jar" />
+    </item>
+    <item
+        jar="/home/hschmale/righttreepa-android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="1a78298e7724d5440d210bcb946b3493250d354d">
+        <dex dex="/home/hschmale/righttreepa-android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-plus-8.4.0_74b879d270244b59f75ff1cfdcfcb39870bec06c.jar" />
+    </item>
+    <item
+        jar="/home/hschmale/righttreepa-android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="9fe026fb4c7fce21bc5142f6e1bdf844f28061ac">
+        <dex dex="/home/hschmale/righttreepa-android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-appinvite-8.4.0_9df445a0f23b1169e9489e06df32a3757fe6e70b.jar" />
+    </item>
+    <item
+        jar="/home/hschmale/righttreepa-android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="9cad249cf62751a323d9af568caf12284b7d6062">
+        <dex dex="/home/hschmale/righttreepa-android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-nearby-8.4.0_ef16a2cf3db2a36396d3536006a805645482eaa1.jar" />
+    </item>
+
+</items>
