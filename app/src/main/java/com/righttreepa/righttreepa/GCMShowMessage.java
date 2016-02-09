@@ -27,6 +27,9 @@ public class GCMShowMessage extends AppCompatActivity {
 
         //Toolbar
         toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+
+        //Navigation icon and click action
         toolbar.setNavigationIcon(R.drawable.abc_ic_ab_back_mtrl_am_alpha);
         toolbar.setNavigationOnClickListener(new View.OnClickListener() {
             @Override
@@ -45,9 +48,9 @@ public class GCMShowMessage extends AppCompatActivity {
         String subtitle = intent.getStringExtra(MyGcmListenerService.extra_subtitle);
 
         //activity title
-        setSupportActionBar(toolbar);
+
         getSupportActionBar().setTitle(title);
-        
+
 
         //subtitle
         TextView subtitle_text = (TextView) findViewById(R.id.title_text);
