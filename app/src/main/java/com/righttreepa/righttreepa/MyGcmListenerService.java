@@ -12,6 +12,9 @@ import android.util.Log;
 
 import com.google.android.gms.gcm.GcmListenerService;
 
+/**@brief GCM Listener Service for app notifications
+ *
+ */
 public class MyGcmListenerService extends GcmListenerService {
     public static String extra_message ;
     public static  String  extra_title;

@@ -17,7 +17,6 @@ public class UserAccount {
     }
 
     public static String getEmail() {
-
         //Log.d("Account", "Hello");
         Account[] accounts = AccountManager.get(context).getAccountsByType("com.google");
         if (accounts[0] != null)

@@ -13,6 +13,9 @@ import android.widget.TextView;
 
 import org.w3c.dom.Text;
 
+/**@brief Used to display the add tree wizard
+ *
+ */
 public class AddNewTreeMain extends AppCompatActivity {
 
     @Override
