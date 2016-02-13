@@ -36,8 +36,10 @@ public class AddNewTreeMain extends AppCompatActivity {
             public void onTabSelected(TabLayout.Tab tab) {
                 viewPager.setCurrentItem(tab.getPosition());
                 if (tab.getPosition() == 0) {
-                    String fragmentName = "android:switcher:" + viewPager.getId() + ":" + tab.getPosition();
-                    android.support.v4.app.Fragment fragment = getSupportFragmentManager().findFragmentByTag(fragmentName);
+                    String fragmentName = "android:switcher:" +
+                            viewPager.getId() + ":" + tab.getPosition();
+                    android.support.v4.app.Fragment fragment =
+                            getSupportFragmentManager().findFragmentByTag(fragmentName);
                     View view = fragment.getView();
                     TextView textView = (TextView) view.findViewById(R.id.link_signup);
                     textView.setText("Hello");

@@ -6,7 +6,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-/**@brief The tree title tab
+/**@brief The add tree general information tab
  *
  */
 public class AddNewTreeTab0 extends Fragment {

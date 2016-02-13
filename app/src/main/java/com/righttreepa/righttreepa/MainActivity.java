@@ -22,16 +22,19 @@ public class MainActivity extends AppCompatActivity {
     SharedPreferences sharedPreferences;
     private static final int PLAY_SERVICES_RESOLUTION_REQUEST = 9000;
     private static final String TAG = "MainActivity";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         sharedPreferences =
                 PreferenceManager.getDefaultSharedPreferences(this);
 
         setSupportActionBar(toolbar);
 
+        // Set what the button does on the main screen
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override

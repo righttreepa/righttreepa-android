@@ -13,7 +13,8 @@ import android.view.ViewGroup;
 public class AddNewTreePagerAdapter extends FragmentPagerAdapter {
 
     SparseArray<Fragment> registeredFragments = new SparseArray<Fragment>();
-    private String tabTitles[] = new String[]{"General", "Photos", "Location", "Categories", "Sub-Categories", "Submit"};
+    private String tabTitles[] =
+            new String[]{"General", "Photos", "Location", "Categories", "Sub-Categories", "Submit"};
 
     public AddNewTreePagerAdapter(FragmentManager fm) {
         super(fm);
@@ -49,7 +50,9 @@ public class AddNewTreePagerAdapter extends FragmentPagerAdapter {
     public CharSequence getPageTitle(int position) {
         return tabTitles[position];
     }
-    public Fragment getActiveFragment(FragmentManager fragmentManager, int position,ViewPager container) {
+
+    public Fragment getActiveFragment(FragmentManager fragmentManager, int position,
+                                      ViewPager container) {
         String name = makeFragmentName(container.getId(), position);
 
         final Fragment fragmentByTag =  fragmentManager.findFragmentByTag(name);
