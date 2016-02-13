@@ -44,6 +44,8 @@ public class RegistrationIntentService extends IntentService {
     }
 
     private void sendRegistrationToServer(String token) {
-        // Add custom implementation, as needed.
+        //TODO: Register this device with Android ID and Token
+        String x =  new UserAccount(this).getDeviceID();
+        Log.d(TAG, x);
     }
 }

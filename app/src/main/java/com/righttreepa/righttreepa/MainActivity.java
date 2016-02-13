@@ -2,6 +2,7 @@ package com.righttreepa.righttreepa;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.nfc.Tag;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.support.design.widget.FloatingActionButton;
@@ -14,6 +15,8 @@ import android.view.MenuItem;
 
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GoogleApiAvailability;
+
+
 
 public class MainActivity extends AppCompatActivity {
     SharedPreferences sharedPreferences;
@@ -46,16 +49,17 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, RegistrationIntentService.class);
         startService(intent);
 
-        //Testing Account.
-
-//        String email = UserAccount.getEmail(this);
-//        if (!email.isEmpty())
-//            Log.d("Account", email);
-
 
         //Check Compatible devices
         if(!checkPlayServices())
             Log.d(TAG,"Not compatible");
+
+        String x =  new UserAccount(this).getDeviceID();
+        Log.d(TAG, x);
+
+
+
+
 
     }
 
