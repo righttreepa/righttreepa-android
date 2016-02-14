@@ -2,7 +2,7 @@
     <string name="app_name">RightTreePA</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_gcmshow_message">RightTreePA Notification</string>
-    <string name="title_activity_add_new_tree">AddNewTree</string>
+    <string name="title_activity_add_new_tree">Tree Register</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
