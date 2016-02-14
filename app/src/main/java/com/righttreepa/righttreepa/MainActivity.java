@@ -15,6 +15,7 @@ import android.view.MenuItem;
 
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GoogleApiAvailability;
+import com.google.android.gms.common.api.GoogleApiClient;
 
 
 
@@ -22,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
     SharedPreferences sharedPreferences;
     private static final int PLAY_SERVICES_RESOLUTION_REQUEST = 9000;
     private static final String TAG = "MainActivity";
+    private GoogleApiClient mGoogleApiClient;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -57,10 +59,9 @@ public class MainActivity extends AppCompatActivity {
         if(!checkPlayServices())
             Log.d(TAG,"Not compatible");
 
+        // get device id
         String x =  new UserAccount(this).getDeviceID();
         Log.d(TAG, x);
-
-
 
 
 
