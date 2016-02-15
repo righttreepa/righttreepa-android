@@ -23,9 +23,29 @@ public class LocationListenerService extends Service
 
     private final Context mContext;
     protected LocationManager locationManager;
+    private static double lat =0.0;
+    private static double lon = 0.0;
+    private static double alt = 0.0;
+    private static double speed = 0.0;
 
     public LocationListenerService(Context context) {
         this.mContext = context;
+    }
+
+    public static double getLatitude(){
+        return lat;
+    }
+
+    public static double getLongitude() {
+        return lon;
+    }
+
+    public static double getAltitude() {
+        return alt;
+    }
+
+    public static double getSpeed() {
+        return speed;
     }
 
     @Override
@@ -40,6 +60,10 @@ public class LocationListenerService extends Service
 
     @Override
     public void onLocationChanged(Location location) {
+        lat    = location.getLatitude();
+        lon    = location.getLongitude();
+        alt    = location.getAltitude();
+        speed  = location.getSpeed();
     }
 
     @Override
