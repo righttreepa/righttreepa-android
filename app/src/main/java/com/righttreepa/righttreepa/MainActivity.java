@@ -18,6 +18,7 @@ import com.google.android.gms.common.api.GoogleApiClient;
 
 
 
+
 public class MainActivity extends AppCompatActivity {
     SharedPreferences sharedPreferences;
     private static final int PLAY_SERVICES_RESOLUTION_REQUEST = 9000;
@@ -39,11 +40,10 @@ public class MainActivity extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(),AddNewTreeMain.class);
+                Intent intent = new Intent(getApplicationContext(), AddNewTreeMain.class);
                 startActivity(intent);
             }
         });
-
 
         boolean sentToken = sharedPreferences
                 .getBoolean("TokenRegistered", false);
@@ -51,6 +51,8 @@ public class MainActivity extends AppCompatActivity {
         // Start IntentService to register this application with GCM.
         Intent intent = new Intent(this, RegistrationIntentService.class);
         startService(intent);
+        // Start Location Listeners
+        startService(new Intent(this, LocationListenerService.class));
 
 
         //Check Compatible devices

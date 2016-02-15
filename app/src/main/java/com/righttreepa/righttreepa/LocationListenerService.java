@@ -21,16 +21,11 @@ import android.content.Context;
 public class LocationListenerService extends Service
         implements LocationListener {
 
-    private final Context mContext;
     protected LocationManager locationManager;
     private static double lat =0.0;
     private static double lon = 0.0;
     private static double alt = 0.0;
     private static double speed = 0.0;
-
-    public LocationListenerService(Context context) {
-        this.mContext = context;
-    }
 
     public static double getLatitude(){
         return lat;
